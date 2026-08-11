@@ -1,0 +1,18 @@
+# Datos personales: NUNCA se publican.
+# Acá viven el perfil, la ergoespirometría y los RPE de quien usa la app.
+data/
+
+# Copias de respaldo que crea el actualizador
+_respaldo_*/
+
+# Resultados de compilar el ejecutable
+build/
+dist/
+*.spec
+instalador_salida/
+
+# Basura de Python y del sistema
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

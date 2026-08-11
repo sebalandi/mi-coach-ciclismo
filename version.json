@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "zip": "https://github.com/USUARIO/REPO/raw/main/garmin_coach.zip",
+  "notas": "Primera version publicada.",
+  "requiere_librerias": false
+}
