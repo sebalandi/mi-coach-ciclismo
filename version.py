@@ -17,7 +17,7 @@ VERSION = "1.0.0"
 #
 # Lo más simple es un repositorio público de GitHub: subís el proyecto y usás la
 # URL "raw" del archivo. Ver la sección de actualizaciones del README.
-URL_VERSION = ""   # ej: "https://raw.githubusercontent.com/usuario/repo/main/version.json"
+URL_VERSION = "https://raw.githubusercontent.com/sebalandi/mi-coach-ciclismo/main/version.json"
 
 
 def como_tupla(texto):
