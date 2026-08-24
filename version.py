@@ -6,7 +6,7 @@ Al publicar una versión hay que subir este número Y el del archivo version.jso
 que queda en el servidor. Si no coinciden, el actualizador no detecta el cambio.
 """
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 # Dónde consultar si hay una versión más nueva. Tiene que apuntar a un archivo
 # JSON con esta forma:
