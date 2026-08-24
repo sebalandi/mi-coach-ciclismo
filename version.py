@@ -17,7 +17,27 @@ VERSION = "1.1.0"
 #
 # Lo más simple es un repositorio público de GitHub: subís el proyecto y usás la
 # URL "raw" del archivo. Ver la sección de actualizaciones del README.
+# Dejar vacío está bien: lo normal es configurarlo desde la propia aplicación
+# (panel izquierdo, ACTUALIZACIONES), que lo guarda junto al resto del perfil.
+# Editar esta línea a mano solo hace falta si querés que la app venga ya
+# configurada para todos los que la instalen.
 URL_VERSION = "https://raw.githubusercontent.com/sebalandi/mi-coach-ciclismo/main/version.json"
+
+
+def url_efectiva(perfil=None):
+    """
+    De dónde consultar las actualizaciones.
+
+    Prioridad: lo que el usuario cargó en la app, y si no hay nada, lo que esté
+    escrito acá arriba. Se hace así para que nadie tenga que editar código: pedir
+    que alguien abra un .py y cambie una línea es una forma segura de que la
+    función no se use nunca.
+    """
+    if perfil:
+        desde_perfil = (perfil.get("url_actualizaciones") or "").strip()
+        if desde_perfil:
+            return desde_perfil
+    return URL_VERSION.strip()
 
 
 def como_tupla(texto):
