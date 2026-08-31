@@ -6,13 +6,13 @@ Al publicar una versión hay que subir este número Y el del archivo version.jso
 que queda en el servidor. Si no coinciden, el actualizador no detecta el cambio.
 """
 
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 
 # Dónde consultar si hay una versión más nueva. Tiene que apuntar a un archivo
 # JSON con esta forma:
 #   {"version": "1.2.0",
 #    "zip": "https://.../garmin_coach.zip",
-#    "notas": "nueva interfaz",
+#    "notas": "Qué cambió",
 #    "requiere_librerias": false}
 #
 # Lo más simple es un repositorio público de GitHub: subís el proyecto y usás la
@@ -21,7 +21,7 @@ VERSION = "1.1.0"
 # (panel izquierdo, ACTUALIZACIONES), que lo guarda junto al resto del perfil.
 # Editar esta línea a mano solo hace falta si querés que la app venga ya
 # configurada para todos los que la instalen.
-URL_VERSION = "https://raw.githubusercontent.com/sebalandi/mi-coach-ciclismo/main/version.json"
+URL_VERSION = ""
 
 
 def url_efectiva(perfil=None):
