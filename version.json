@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
   "zip": "https://github.com/sebalandi/mi-coach-ciclismo/raw/main/garmin_coach.zip",
-  "notas": "Curva de potencia con el eje en minutos.",
+  "notas": "nueva interfaz.",
   "requiere_librerias": false
 }
