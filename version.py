@@ -10,9 +10,9 @@ VERSION = "1.1.0"
 
 # Dónde consultar si hay una versión más nueva. Tiene que apuntar a un archivo
 # JSON con esta forma:
-#   {"version": "1.1.0",
+#   {"version": "1.2.0",
 #    "zip": "https://.../garmin_coach.zip",
-#    "notas": "Qué cambió",
+#    "notas": "nueva interfaz",
 #    "requiere_librerias": false}
 #
 # Lo más simple es un repositorio público de GitHub: subís el proyecto y usás la
