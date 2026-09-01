@@ -6,11 +6,11 @@ Al publicar una versión hay que subir este número Y el del archivo version.jso
 que queda en el servidor. Si no coinciden, el actualizador no detecta el cambio.
 """
 
-VERSION = "1.3.1"
+VERSION = "1.3.2"
 
 # Dónde consultar si hay una versión más nueva. Tiene que apuntar a un archivo
 # JSON con esta forma:
-#   {"version": "1.3.1",
+#   {"version": "1.3.2",
 #    "zip": "https://.../garmin_coach.zip",
 #    "notas": "Qué cambió",
 #    "requiere_librerias": false}
