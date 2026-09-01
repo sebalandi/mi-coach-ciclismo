@@ -1,6 +1,6 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "zip": "https://github.com/sebalandi/mi-coach-ciclismo/raw/main/garmin_coach.zip",
-  "notas": "Arreglo del bug que impedia que las actualizaciones del .exe se aplicaran.",
+  "notas": "Arregla la importacion de Apple Salud: fallaba en Windows por una ruta de Linux hardcodeada.",
   "requiere_librerias": false
 }
