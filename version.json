@@ -1,6 +1,6 @@
 {
   "version": "1.3.3",
-  "zip": "https://github.com/USUARIO/REPO/raw/main/garmin_coach.zip",
-  "notas": "Arregla la importacion de Apple Salud: fallaba en Windows por una ruta de Linux hardcodeada.",
+  "zip": "https://github.com/sebalandi/mi-coach-ciclismo/raw/main/garmin_coach.zip",
+  "notas": "...",
   "requiere_librerias": false
 }
